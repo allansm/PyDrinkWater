@@ -22,12 +22,12 @@ class Main(tkinter.Tk):
         self.resizable(False, False)
         x = 90
         y = 30
-        label =ttk.Label(text = "Login" ,font=20)
+        label =ttk.Label(text = "Login:" ,font=20)
         label.place(x=x,y=y)
         login = tkinter.StringVar()
         input = ttk.Entry(width=35,textvariable=login)
         input.place(x=x,y=y+30)
-        label = ttk.Label(text="Senha",font=20)
+        label = ttk.Label(text="Senha:",font=20)
         label.place(x=x, y=y+80)
         senha = tkinter.StringVar()
         input = ttk.Entry(width=35 ,textvariable=senha,show="*")

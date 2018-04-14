@@ -28,7 +28,7 @@ class Painel:
         label3 = ttk.Label(painel, text="Data:                           "+data, font=20)
         label3.place(x=x, y=y + 100)
 
-        label = ttk.Label(painel, text="Copos", font=20)
+        label = ttk.Label(painel, text="Copos:", font=20)
         label.place(x=x, y=y + 150)
 
         times = ttk.Entry(painel,validate="key",width=5)
